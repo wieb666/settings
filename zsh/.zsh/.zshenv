@@ -29,9 +29,9 @@ if [[ -f ~/.myprofile ]]; then
     source ~/.myprofile
 fi
 
+pathmunge "$HOME/miniconda3/bin" after
 MYPATH=$PATH
 export PATH MYPATH
 
 . $HOME/.zsh/unset_common_fun.zsh
 [[ -r ~/.profile && -z "$EZ_REX_PROFILE_LOADED" ]] && . ~/.profile
-

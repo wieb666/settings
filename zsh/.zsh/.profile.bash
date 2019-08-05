@@ -5,4 +5,3 @@ if [ x$ZSH_VERSION = x -a -f /bin/zsh ]; then
 else
     source ~/.zsh/.profile
 fi
-

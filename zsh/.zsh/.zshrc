@@ -76,4 +76,3 @@ bindkey "\e[F" end-of-line
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 . ~/git/dev_env/z.sh
 
-

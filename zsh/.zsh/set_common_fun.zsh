@@ -1,3 +1,4 @@
+
 pathmunge () {
     case ":${PATH}:" in
         *:"$1":*)
